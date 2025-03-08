@@ -4,7 +4,7 @@
             <div class="p-4 mb-4 max-w-5xl mx-auto space-x-2">
                 <div class="flex items-center rounded-lg p-4 bg-[#2C2E30]">
                     <inputs-search v-model="searchQuery" @keydown.enter="searchCharacters" type="text"
-                    placeholder="Search for characters..." class="w-[88%] mr-4" />
+                        placeholder="Search for characters..." class="w-[88%] mr-4" />
                     <buttons-primary buttonText="Search" @click="searchCharacters" class="w-12 sm:w-24">
                     </buttons-primary>
                 </div>
